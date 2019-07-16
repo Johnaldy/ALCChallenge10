@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ALC Challenge 1.0</string>
+    <string name="android_and_cloud">Android and Cloud</string>
+    <string name="techaddict">TechAddict</string>
+    <string name="_08081800155">08081800155</string>
+    <string name="email">Johnaldy44@gmail.com</string>
+    <string name="name">John Aldy</string>
+    <string name="track">Track:</string>
+    <string name="country">Country:</string>
+    <string name="email_label">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="slack_name">Slack Name:</string>
+    <string name="country_name">Nigeria</string>
+    <string name="about_alc">about alc</string>
+    <string name="meet_johnaldy">meet johnaldy</string>
+</resources>
