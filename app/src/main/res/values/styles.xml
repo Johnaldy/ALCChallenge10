@@ -17,7 +17,7 @@
     </style>
 
     <style name="ButtonTheme">
-        <item name="android:background">#4285F4</item>
+        <item name="android:background">@color/colorPrimary</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:fontFamily">Roboto</item>
