@@ -12,7 +12,11 @@
     <string name="slack_name">Slack Name:</string>
     <string name="country_name">Nigeria</string>
     <string name="about_alc">ABOUT ALC</string>
-    <string name="meet_johnaldy">meet johnaldy</string>
     <string name="welcome">Welcome To ALC 4.0</string>
     <string name="meet_johnaldy1">MEET JOHNALDY</string>
+    <string name="twitter">twitter</string>
+    <string name="linkedin">linkedin</string>
+    <string name="instagram">instagram</string>
+    <string name="github">github</string>
+    <string name="facebook">facebook</string>
 </resources>

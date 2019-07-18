@@ -11,14 +11,28 @@
         android:roundIcon="@drawable/ic_local_florist_black_24dp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MeetJohnaldy"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <activity android:name=".AboutALC"
+        <activity
+            android:name=".Socials.JohnGithub"
+            android:parentActivityName=".MeetJohnaldy"></activity>
+        <activity
+            android:name=".Socials.JohnLinkedin"
+            android:parentActivityName=".MeetJohnaldy" />
+        <activity
+            android:name=".Socials.JohnInstagram"
+            android:parentActivityName=".MeetJohnaldy" />
+        <activity
+            android:name=".Socials.JohnTwitter"
+            android:parentActivityName=".MeetJohnaldy" />
+        <activity
+            android:name=".Socials.JohnFacebook"
+            android:parentActivityName=".MeetJohnaldy" />
+        <activity
+            android:name=".MeetJohnaldy"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutALC"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

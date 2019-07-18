@@ -1,23 +1,26 @@
-package com.example.alcchallenge10;
+package com.example.alcchallenge10.Socials;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
+
 import android.net.http.SslError;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.example.alcchallenge10.R;
 
-public class AboutALC extends AppCompatActivity {
-    public static String url = "https://andela.com/alc/";
-    private WebView webView;
-
+public class JohnTwitter extends AppCompatActivity {
+WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.webview);
-        this.setTitle("About ALC");
+        this.setTitle("John Aldy");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         webView = findViewById(R.id.webview);
@@ -28,7 +31,7 @@ public class AboutALC extends AppCompatActivity {
         webSettings.setDomStorageEnabled(true);
         webSettings.setUseWideViewPort(true);
 
-        webView.loadUrl(url);
+        webView.loadUrl("https://twitter.com/johnaldy44");
         /*This is to handle SSL error*/
         webView.setWebViewClient(new WebViewClient() {
             @Override
@@ -36,7 +39,17 @@ public class AboutALC extends AppCompatActivity {
                 handler.proceed();
             }
         });
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
