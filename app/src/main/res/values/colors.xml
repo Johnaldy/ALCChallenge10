@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3a58dd</color>
     <color name="colorPrimaryDark">#0030aa</color>
     <color name="colorAccent">#D81B60</color>
+
+    !-- the activated state color for a forecast list item -->
+    <color name="activated">#E0E0E0</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
 </resources>
